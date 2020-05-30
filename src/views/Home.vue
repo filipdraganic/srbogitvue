@@ -1,18 +1,97 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+  <div class="jumbotron row m-lg-5 m-1" >
+    <div class="col-lg-9">
+
+      <h1 class="display-4">Srbogit</h1>
+
+      <p class="lead">Najsavremeniji i najpatriotickiji websajt za upravljanje projektima koji ce dovesti do bolje i stabilnije Srbije</p>
+      <p class="lead">Ako vas ovo privlaci i zelite do Srbija kao nacija napreduje, sta cekate</p>
+      <p>Lajk sher sabskrajb!</p>
+      <hr class="my-4">
+
+        <div class="row justify-content-center">
+
+          <div class=" col-0 col-sm-4 col-md-4 col-lg-6">
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-12 ">
+
+            <div v-if="!this.$store.getters.getLoggedIn" >
+              <p class="lead" >
+                <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="login()" role="button">Prikljuci se sada!</a>
+              </p>
+            </div>
+
+
+            <div v-else>
+                <p class="lead" >
+                  <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="idiNaGit()" role="button">Idi na moj git</a>
+                </p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-3" id="gitSlika">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Octicons-git-branch.svg/1200px-Octicons-git-branch.svg.png" alt="git-logo"  width="200px">
+      </div>
+
+
   </div>
+
+
+
+
+
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import headerLoggedOut from "./headerLoggedOut";
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+
+  created() {
+
+  },
+
+  methods:{
+    login: function(){
+      headerLoggedOut.methods.clickLoginBtn()
+    },
+    idiNaGit: function(){
+      this.$router.push({path: "my-git"})
+    }
   }
 }
+
+
+
+
 </script>
+
+<style>
+
+  #gitSlika{
+    text-align: center;
+  }
+
+
+  .jumbotron{
+
+    border-radius: 20px !important;
+    border: black 1px solid !important;
+
+  }
+
+
+
+</style>
