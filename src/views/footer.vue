@@ -1,4 +1,4 @@
-<template>
+`<template>
     <div class="page-footer font-small mdb-color pt-4">
         <hr class="my-4">
         <div class="container text-center text-md-left">
@@ -95,4 +95,9 @@
 
 <style scoped>
 
-</style>
+    .page-footer{
+        margin-top: auto;
+
+    }
+
+</style>`

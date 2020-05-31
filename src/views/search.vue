@@ -105,7 +105,6 @@
         margin-bottom: 12px; /* Add some space below the input */
         margin-top: 20px;
     }
-
     .myUL {
         /* Remove default list styling */
         list-style-type: none;

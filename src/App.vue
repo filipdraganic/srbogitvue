@@ -13,10 +13,11 @@
 
 
 
+    <div v-if="myGitCheck()">
+      <webapp-footer>
 
-    <webapp-footer>
-
-    </webapp-footer>
+      </webapp-footer>
+    </div>
 
   </div>
 
@@ -51,7 +52,11 @@
     },
 
     methods: {
+      myGitCheck: function(){
+        console.log(this.$router.currentRoute)
+        return !this.$router.currentRoute["path"].includes("my-git") ;
 
+      }
     }
   }
 </script>

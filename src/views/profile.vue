@@ -44,14 +44,14 @@
                     Umem vindous da instaliram. Cak poneki i da krekiram.
 
                 </p>
-                <br>
+                <hr>
                 <h4>Najnoviji projketi</h4>
                 <table class="table">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
+                        <th scope="col">Ime projekta</th>
+                        <th scope="col">Starost</th>
                     </tr>
                     </thead>
                     <tbody>

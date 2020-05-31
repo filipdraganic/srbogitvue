@@ -302,27 +302,27 @@
 
 			},
 			goToBlog: function () {
-				this.$router.push({path: 'blog'})
+				this.$router.push({name: 'blog'})
 
 			},
 			goToPricing: function () {
-				this.$router.push({path: 'pricing'})
+				this.$router.push({name: 'pricing'})
 
 			},
 			goToProfile: function () {
-				this.$router.push({path: 'profile'})
+				this.$router.push({name: 'profile'})
 
 			},
 			goToMyGit: function () {
-				this.$router.push({path: 'my-git'})
+				this.$router.push({name: 'myGit'})
 
 			},
 			goToSupport: function () {
-				this.$router.push({path: 'support'})
+				this.$router.push({name: 'support'})
 
 			},
             goToSearch: function () {
-            	this.$router.push({path: 'search'})
+            	this.$router.push({name: 'search'})
             },
 
             clickLoginBtn: function(){

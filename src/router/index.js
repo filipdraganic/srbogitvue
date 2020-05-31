@@ -11,6 +11,7 @@ import search from "../views/search";
 import vaskoMijatovicProfile from "../views/vaskoMijatovicProfile";
 import inbox from "../views/inbox";
 import contacts from "../views/contacts";
+import beogradNaVodi from "../views/beogradNaVodi";
 
 Vue.use(VueRouter)
 
@@ -69,13 +70,18 @@ Vue.use(VueRouter)
       component: myGit
     },
     {
+      path:'/my-git/beograd-na-vodi',
+      name: 'beogradNaVodi',
+      component: beogradNaVodi
+    },
+    {
       path:'/pricing',
       name: 'pricing',
       component: pricing
     },
     {
       path:'*',
-      name: 'notFound404',
+      name: 'notFound',
       component: notFound404
     }
 ]
