@@ -245,9 +245,30 @@
             </div>
 
             <div class="d-none d-md-block col-lg-3 ml-4" id="adovi">
-                <div class="jumbotron">
+                <div class="jumbotron" style="background: white; padding: 5px 10px 5px 10px">
+                    <h3 style="text-align: center">Oglasi firma za posao</h3>
 
+                    <br><br>
+
+                    <div class="jumbotron justify-content-center" style="padding: 5px;">
+                        <img src="../assets/holycode.png" style="object-fit: cover; width: 100%; height: 100%" alt="">
+                        <p style="font-size: 0.75em; text-align: center; margin: 2px">Holy code trazi novog programera po 512 puta!!!</p>
+                    </div>
+
+
+                    <div class="jumbotron justify-content-center" style="padding: 5px;">
+                        <img src="../assets/microsoft.png" style="object-fit: cover; width: 100%; height: 100%" alt="">
+                        <p style="font-size: 0.75em; text-align: center; margin: 2px">Microsoft praksa skroz placena, prijava sada</p>
+                    </div>
+
+
+                    <div class="jumbotron justify-content-center" style="padding: 5px; min-height: 100px">
+                        <img src="../assets/penta.png" style="object-fit: cover; width: 100%; height: 100%" alt="">
+                        <p style="font-size: 0.75em; text-align: center; margin: 2px">Penta, kul firma, slajduj u dm</p>
+                    </div>
                 </div>
+                <br><br>
+
             </div>
 
         </div>

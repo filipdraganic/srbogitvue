@@ -1,8 +1,16 @@
 <template>
 
-    <div class="container">
+    <div class="container-fluid row">
+        <div class="jumbotron col-3 d-none d-md-block">
+            <div class="btn-group-vertical">
+                <button class="btn btn-outline-primary active"> Beograd na vodi </button>
+                <button class="btn btn-outline-primary">Autoput Milos Veliki</button>
+                <button class="btn btn-outline-primary">Brojevi Nbg blokova</button>
+                <button class="btn btn-outline-primary">Robna kuca Temerin</button>
 
-        <h1>My Git</h1>
+            </div>
+        </div>
+
     </div>
 </template>
 
