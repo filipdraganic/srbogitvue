@@ -94,17 +94,9 @@
                             <my-git-issues></my-git-issues>
 
                         </div>
-                        <div class="tab-pane fade " id="forks" role="tabpanel" aria-labelledby="forks-tab">Belgrade on Water (Београд на води / Beograd
-                            na vodi), is an urban renewal development
-                            project headed by the Government of Serbia
-                            aimed at improving Belgrade's cityscape and
-                            economy by revitalizing the Sava amphitheater,
-                            a neglected stretch of land on the right bank of
-                            the Sava river, between the Belgrade Fair and
-                            Branko's bridge. It was started in 2014 with the
-                            reconstruction of the Belgrade Cooperative
-                            building, which was finished in June of the same
-                            year. It is the second largest mixed use complex</div>
+                        <div class="tab-pane fade " id="forks" role="tabpanel" aria-labelledby="forks-tab" style="padding:0">
+                            <my-git-forks></my-git-forks>
+                        </div>
                         <div class="tab-pane fade" id="ganttChart" role="tabpanel" aria-labelledby="ganttChart-tab">Belgrade on Water (Београд на води / Beograd
                             na vodi), is an urban renewal development
                             project headed by the Government of Serbia
@@ -211,10 +203,11 @@
 	import headerLoggedOut from "./headerLoggedOut";
 	import MyGitFiles from "./myGit-files";
 	import MyGitIssues from "./myGit-issues";
+	import MyGitForks from "./myGit-forks";
 
 	export default {
 		name: "myGit",
-		components: {MyGitIssues, MyGitFiles},
+		components: {MyGitForks, MyGitIssues, MyGitFiles},
 		created() {
 			headerLoggedOut.methods.setActiveBtn("btn5")
 		},

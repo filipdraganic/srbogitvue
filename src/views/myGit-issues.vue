@@ -17,19 +17,18 @@
                         <div class="card-header" id="headingOneOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneOpen" aria-expanded="true" aria-controls="collapseOneOpen">
-                                    *Cao ::: mojsijedarkovic@gmail.com
+                                    Issue #1 - Liftovi ne rade
                                 </button>
                             </h5>
                         </div>
 
                         <div id="collapseOneOpen" class="collapse show" aria-labelledby="headingOneOpen" data-parent="#accordionOpened">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Vec danima liftovi ne rade, dajte da se malo uozbiljimo u ovome
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -38,18 +37,17 @@
                         <div class="card-header" id="headingTwoOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoOpen" aria-expanded="false" aria-controls="collapseTwo">
-                                    *A small load of a milion dollard ::: ivicmandic@gmail.com
+                                    Issue #2 - Nije dovoljno daleko od vode
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseTwoOpen" class="collapse" aria-labelledby="headingTwoOpen" data-parent="#accordionOpened">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Lorem ipsum
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -58,7 +56,7 @@
                         <div class="card-header" id="headingThreeOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreeOpen" aria-expanded="false" aria-controls="collapseThree">
-                                    *Zdravo, ja sam tvoj daleko izgubljeni rodjak, nigerijski princ, treba mi tvoja pomoc ::: princ@nigerija.ba
+                                    Issue #3 - Poplaava na 583. spratu
                                 </button>
                             </h5>
                         </div>
@@ -68,8 +66,7 @@
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -78,7 +75,7 @@
                         <div class="card-header" id="headingFourOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFouOpen" aria-expanded="false" aria-controls="collapseFour">
-                                    Da li je stiglo dovde? :::  vukotasaponjic@gmail.com
+                                    Issue #4 - Trzni centar ne radi i dalje
                                 </button>
                             </h5>
                         </div>
@@ -88,8 +85,7 @@
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -98,7 +94,7 @@
                         <div class="card-header" id="headingFiveOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFiveOpen" aria-expanded="false" aria-controls="collapseFive">
-                                    Uspelo? ::: stankopejic@gmail.com
+                                    Issue #5 - Stanovi previse jeftini
                                 </button>
                             </h5>
                         </div>
@@ -108,8 +104,7 @@
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -118,7 +113,7 @@
                         <div class="card-header" id="headingSixOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixOpen" aria-expanded="false" aria-controls="collapseSix">
-                                    Opet test ::: jezdimirstevanovic@gmail.com
+                                    Issue #6 - Stanovi preskupi
                                 </button>
                             </h5>
                         </div>
@@ -128,8 +123,7 @@
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -148,8 +142,7 @@
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Close issue</button>
 
                             </div>
                         </div>
@@ -164,19 +157,18 @@
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    *Cao ::: mojsijedarkovic@gmail.com
+                                    Issue #1 - Beton popucao
                                 </button>
                             </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Zabetonirali asfalt
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Reopen issue </button>
 
                             </div>
                         </div>
@@ -185,122 +177,22 @@
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    *A small load of a milion dollard ::: ivicmandic@gmail.com
+                                    Issue #2 - Liftovi rade
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Zamenili sajle
                             </div>
                             <hr>
                             <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
+                                <button class="btn btn-danger">Reopen issue </button>
 
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    *Zdravo, ja sam tvoj daleko izgubljeni rodjak, nigerijski princ, treba mi tvoja pomoc ::: princ@nigerija.ba
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                            <hr>
-                            <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Da li je stiglo dovde? :::  vukotasaponjic@gmail.com
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                            <hr>
-                            <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFive">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Uspelo? ::: stankopejic@gmail.com
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                            <hr>
-                            <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSix">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    Opet test ::: jezdimirstevanovic@gmail.com
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                            <hr>
-                            <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSeven">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    testporuka ::: budimirjovanovic@gmail.com
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                            <div class="card-body">
-                                Da li radi aaaaaaaa
-                            </div>
-                            <hr>
-                            <div class="row container mb-2 ml-2">
-                                <button class="btn btn-primary mr-2">Reply</button>
-                                <button class="btn btn-danger">Delete message</button>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
             </div>
