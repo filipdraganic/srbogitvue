@@ -1,22 +1,22 @@
 <template>
 
     <div class=" row mt-3 justify-content-center inline">
-        <div class="d-none d-md-block col-lg-2 col-3" style="background: #eeeeee">
+        <div class="d-none d-md-block col-lg-2 col-3 text-center" style="background: #eeeeee">
 
-            <div class="col-6 ml-5 mt-3">
+            <div class=" mt-3 text-center">
 
-                <img class="card-img-100 d-flex z-depth-1 " src="../assets/classicstonks.png" alt="Generic placeholder image">
+                <img class="card-img-100  " src="../assets/classicstonks.png" alt="Generic placeholder image">
                 <h5>Stonks Man</h5>
 
             </div>
-        <nav class="topmenu">
-            <ul style="list-style: none">
-                <li><a class="btn mt-3" style="font-size: 1.5em"><i class="fas fa-user-alt"></i> Profile</a></li>
-                <li><a class="btn mt-3" v-on:click="$router.push({path:'inbox'})" style="font-size: 1.5em"><i class="fas fa-inbox"></i> Inbox</a></li>
-                <li><a class="btn mt-3" v-on:click="$router.push({path:'contacts'})" style="font-size: 1.5em"><i class="fas fa-address-book"></i> Contacts</a></li>
+            <nav class="topmenu">
+                <ul style="list-style: none; padding: 0">
+                    <li><a class="btn mt-3" style="font-size: 1.5em"><i class="fas fa-user-alt"></i> Profile</a></li>
+                    <li><a class="btn mt-3" v-on:click="$router.push({path:'inbox'})" style="font-size: 1.5em"><i class="fas fa-inbox"></i> Inbox</a></li>
+                    <li><a class="btn mt-3" v-on:click="$router.push({path:'contacts'})" style="font-size: 1.5em"><i class="fas fa-address-book"></i> Contacts</a></li>
 
-            </ul>
-        </nav>
+                </ul>
+            </nav>
 
 
         </div>

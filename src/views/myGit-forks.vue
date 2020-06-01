@@ -1,11 +1,11 @@
 <template>
     <div  style="height: 400px; width: 100%">
         <ul class="list-group my-custom-scrollbar" id="listgrupa">
-            <li class="list-group-item">Cras justo odio <a class="btn btn-outline-success dugmic">Approve fork</a> <a class="btn btn-outline-danger dugmic">Disapprove fork</a></li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li class="list-group-item">Request #86 by Mihajlo Karamazon <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
+            <li class="list-group-item">Request #73 by Vukota Miraz in <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
+            <li class="list-group-item">Request #67 by Gregor Orfelin <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
+            <li class="list-group-item">Request #52 by Delibata Milonic <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
+            <li class="list-group-item">Request #1 by Dzems Kilibari <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
 
         </ul>
     </div>

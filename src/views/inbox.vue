@@ -24,7 +24,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -44,7 +44,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -64,7 +64,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -84,7 +84,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -104,7 +104,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -124,7 +124,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>
@@ -144,7 +144,7 @@
                     </div>
                     <hr>
                     <div class="row container mb-2 ml-2">
-                        <button class="btn btn-primary mr-2">Reply</button>
+                        <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#newMessageForm">Reply</button>
                         <button class="btn btn-danger">Delete message</button>
 
                     </div>

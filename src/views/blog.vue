@@ -2,7 +2,7 @@
 
     <div class="container">
         <div >
-            <h1 class="mt-3" style="text-align: center">Blog</h1>
+            <h1 class="mt-3" style="text-align: center">SrboBlog</h1>
         </div>
 
         <h5 style="text-align: center; margin-top: 50px">Create new post</h5>

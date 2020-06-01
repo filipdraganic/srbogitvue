@@ -1,13 +1,15 @@
 <template>
-    <div style="height: 400px">
-        <div class="row justify-content-center" id="mainMenu" style="">
-            <button class="btn btn-outline-primary m-2"> Create new item</button>
+    <div style="height: 400px; ">
+        <div class="row justify-content-center container " id="mainMenu" style="">
+            <button class="btn btn-outline-primary m-2" v-on:click="createItem()"> Create new item</button>
             <button class="btn btn-outline-success m-2" data-toggle="modal" data-target="#uploadModal"> Upload file</button>
-            <button class="btn btn-outline-warning m-2" v-on:click="renameItems"> Rename item</button>
-            <button class="btn btn-outline-danger m-2" v-on:click="deleteItems"> Delete items</button>
-            <div class="col-2"></div>
-            <input class="form-control col-2" style="margin-top: auto; margin-bottom: auto" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 ml-2" id="searchBtn" v-on:click="goToSearch()">Search</button>
+            <button class="btn btn-outline-warning m-2" v-on:click="renameItems()"> Rename item</button>
+            <button class="btn btn-outline-danger m-2" v-on:click="deleteItems()"> Delete items</button>
+
+            <div class="row" style="margin-left: auto">
+                <input class="form-control col-8" style="margin-top: auto; margin-bottom: auto" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success col-3 my-2 ml-2" id="searchBtn">Search</button>
+            </div>
         </div>
 
         <div class="row justify-content-center" id="deleteMenu" hidden>
@@ -17,6 +19,11 @@
 
         <div class="row justify-content-center" id="renameMenu" hidden>
             <button class="btn btn-outline-warning m-2" v-on:click="renameItems"> Rename items</button>
+
+        </div>
+
+        <div class="row justify-content-center" id="createItemMenu" hidden>
+            <button class="btn btn-outline-danger" v-on:click="createItem"> Cancel</button>
 
         </div>
 
@@ -335,14 +342,75 @@
                 </table>
             </div>
 
+            <div id="createItemView" hidden>
+                <div class="row container justify-content-center">
+                    <h4 class="" style="margin-top: auto; margin-bottom: auto; margin-right: 10px">File name</h4>
+                    <form style="margin-bottom: auto; margin-top: auto">
 
+                        <input  type="text" id="imeFajla" placeholder="filename.py" style="margin-top: 10px" required >
+                        <button class="btn btn-outline-primary m-2" v-on:click="createItem" type="submit" style="float:right; margin-left: auto"> Create item</button>
+                    </form>
+
+                </div>
+                <hr>
+
+                <div class="container table-wrapper-scroll-y my-custom-scrollbar " style="width: 100%; height: 100%; box-sizing: border-box;">
+                    <textarea name="newItemTA" id="newItemTA" cols="" rows="" style="width: 100%; height: 100%; box-sizing: border-box;"></textarea>
+                </div>
+            </div>
 
     </div>
 </template>
 
 <script>
 	export default {
-		name: "myGit-files"
+		name: "myGit-files",
+
+        methods: {
+            deleteItems: function(){
+                const mainMenu = document.getElementById("mainMenu")
+                const deleteMenu = document.getElementById("deleteMenu")
+                const mainTable = document.getElementById("mainTable")
+                const deleteTable = document.getElementById("deleteTable")
+
+
+                mainMenu.hidden = !mainMenu.hidden
+                deleteMenu.hidden = !deleteMenu.hidden
+                mainTable.hidden = !mainTable.hidden
+                deleteTable.hidden = !deleteTable.hidden
+            },
+            renameItems: function(){
+                const mainMenu = document.getElementById("mainMenu")
+                const renameMenu = document.getElementById("renameMenu")
+                const mainTable = document.getElementById("mainTable")
+                const renameTable = document.getElementById("renameTable")
+
+
+                mainMenu.hidden = !mainMenu.hidden
+                renameMenu.hidden = !renameMenu.hidden
+                mainTable.hidden = !mainTable.hidden
+                renameTable.hidden = !renameTable.hidden
+            },
+            createItem: function(){
+                const mainMenu = document.getElementById("mainMenu")
+                const mainTable = document.getElementById("mainTable")
+                const newItemMenu = document.getElementById("createItemMenu")
+                const newItemView = document.getElementById("createItemView")
+
+                const imeFajla = document.getElementById("imeFajla")
+
+                if(imeFajla.textContent.length > 0 || newItemView.hidden) {
+
+                    mainMenu.hidden = !mainMenu.hidden
+                    mainTable.hidden = !mainTable.hidden
+                    newItemMenu.hidden = !newItemMenu.hidden
+                    newItemView.hidden = !newItemView.hidden
+                }else{
+                    return
+                }
+
+            }
+        }
 	}
 </script>
 

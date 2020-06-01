@@ -11,7 +11,7 @@
 
 
         </div>
-        <div class="col-8 ml-3 " style="background: #eeeeee; padding-top: 30px; padding-left: 10px">
+        <div class="col-10 col-lg-8  " style="background: #eeeeee; padding-top: 30px; padding-left: 10px">
 
 
             <div class="container d-md-none " style="text-align: center">
@@ -22,10 +22,13 @@
 
             <div class="ml-3">
                 <div class="row ">
-                    <h5 class="col-sm-10 col-md-10 col-lg-8">Info</h5>
+                    <h5 class="col-sm-3 col-md-3 col-lg-2">Info</h5>
 
-                    <button class="btn btn-danger " style=" margin-bottom: auto; margin-top: -4px"> Remove from contacts</button>
-                    <button class="btn btn-outline-primary " style=" margin-bottom: auto; margin-top: -4px; margin-left: 5px"> Message</button>
+                    <div class="container-fluid text-right col-12 col-lg-9 col-md-9 col-sm-12">
+                        <button class="btn btn-danger " style=" margin-bottom: auto; margin-top: -4px"> Remove from contacts</button>
+                        <button class="btn btn-outline-primary " style=" margin-bottom: auto; margin-top: -4px; margin-left: 5px"> Message</button>
+
+                    </div>
 
 
 

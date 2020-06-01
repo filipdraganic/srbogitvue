@@ -2,10 +2,10 @@
     <div class="" style="max-width: 100%; padding: 0px">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="opened-tab" data-toggle="tab" href="#opened" role="tab" aria-controls="opened" aria-selected="true">Opened</a>
+                <a class="nav-link active" id="opened-tab" data-toggle="tab" href="#opened" role="tab" aria-controls="opened" aria-selected="true" style="border-bottom: white 2px solid">Opened</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="closed-tab" data-toggle="tab" href="#closed" role="tab" aria-controls="closed" aria-selected="false">Closed</a>
+            <li class="nav-item" >
+                <a class="nav-link" id="closed-tab" data-toggle="tab" href="#closed" role="tab" aria-controls="closed" aria-selected="false" style="border-bottom: white 4px solid">Closed</a>
             </li>
         </ul>
 
@@ -132,7 +132,7 @@
                         <div class="card-header" id="headingSevenOpen">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSevenOpen" aria-expanded="false" aria-controls="collapseSeven">
-                                    testporuka ::: budimirjovanovic@gmail.com
+                                    Issue #7 - Test issue
                                 </button>
                             </h5>
                         </div>
