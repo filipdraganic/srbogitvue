@@ -2,7 +2,7 @@
  <div>
 
     <div class="" style="  background: #fff; ">
-        <div class="d-none d-md-block " style=" position: fixed; right: 0; left: 0; top: 50px; bottom: 0;">
+        <div class="d-none d-md-block " style=" position: fixed; right: 0; left: 0; top: 60px; bottom: 0;">
             <div class="container-fluid row " style="height: 100%; margin-bottom:-50px">
                 <div class=" col-2" style="padding: 0; border-radius: 0 !important; height: 100%; margin-bottom:auto; background:white">
                     <div class="btn-group-vertical" style="width: 100%;height: 100%; border: none; border-right: grey 2px solid; ">
@@ -20,7 +20,7 @@
 
                 </div>
 
-                <div class="col-10">
+                <div class="col-10" style="overflow-y: scroll">
 
 
                     <!--            Git koji treba da se pokaze na kompu-->
@@ -28,8 +28,9 @@
 
                         <h2 style="margin-right: 10px">Beograd na vodi</h2>
                         <i class="fas fa-lock" style="margin-top: auto; margin-bottom: auto;"/>
+                        <a class="btn btn-outline-primary" v-on:click="$router.push({name:'settings'})" style="margin: auto 0 auto auto; float: right"> <i class="fas fa-cogs"></i> Settings </a>
 
-                        <a class="btn btn-outline-primary" style="margin:auto 30px 0 auto"><i class="fas fa-download" style="margin-right: 4px"/>Download repository</a>
+                        <a class="btn btn-outline-primary ml-1" style="margin:auto 0 auto 0"><i class="fas fa-download" style="margin-right: 4px"/>Download repository</a>
 
                     </div>
                     <hr>

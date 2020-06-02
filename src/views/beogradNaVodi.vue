@@ -1,36 +1,34 @@
 <template>
     <div>
-        <div class="" style="  background: #fff; ">
-            <div class=" " style=" ">
+        <div class="" style="height: 100%;  background: #fff; ">
+            <div class=" " style=" position: fixed; right: 0; left: 0; top: 60px; bottom: 0;">
                 <div class="container-fluid row " style="height: 100%">
                     <div class=" col-lg-2 col-md-2  d-none d-md-block" style="padding: 0; border-radius: 0 !important; border-right: grey 2px solid; height: auto !important;  background:white">
-                        <div class="btn-group-vertical" style="width: 100%;  ">
+                        <div class="btn-group-vertical" style="width: 100%;height: 100%; border: none; border-right: grey 1px solid; ">
                             <button class="dugmici btn btn-outline-primary active" v-on:click="$router.push({name:'beogradNaVodi'})" id="btn1"> Beograd na vodi </button>
                             <button class="dugmici btn btn-outline-primary">Autoput Milos Veliki</button>
                             <button class="dugmici btn btn-outline-primary">Brojevi Nbg blokova</button>
                             <button class="dugmici btn btn-outline-primary">Robna kuca Temerin</button>
 
+                            <div style="margin: auto"></div>
 
+                            <button class="dugmici btn btn-outline-success" style=""><i class="fas fa-plus"/> Create new Repository</button>
 
 
                         </div>
 
-                        <div style="margin: 100%"></div>
-
-                        <a class="dugmici btn btn-outline-success" style="float:bottom; margin-top: 100%"><i class="fas fa-plus"/> Create new Repository</a>
-
-
                     </div>
 
-                    <div class="col-12 col-lg-10 col-md-10 col-sm-12">
+                    <div class="col-12 col-lg-10 col-md-10 col-sm-12" style="overflow-y: scroll">
 
                         <!--            Git koji treba da se pokaze na kompu-->
                         <div class="row" style="margin-left: auto; margin-top: auto; margin-bottom: auto">
 
                             <h2 style="margin-right: 10px">Beograd na vodi</h2>
                             <i class="fas fa-lock" style="margin-top: auto; margin-bottom: auto;"/>
+                            <a class="btn btn-outline-primary" v-on:click="$router.push({name:'settings'})" style="margin: auto 0 auto auto; float: right"> <i class="fas fa-cogs"></i> Settings </a>
 
-                            <a class="btn btn-outline-primary" style="margin:auto 30px 0 auto"><i class="fas fa-download" style="margin-right: 4px"/>Download repository</a>
+                            <a class="btn btn-outline-primary ml-1" style="margin:auto 0 auto auto"><i class="fas fa-download" style="margin-right: 4px"/>Download repository</a>
 
                         </div>
                         <hr>

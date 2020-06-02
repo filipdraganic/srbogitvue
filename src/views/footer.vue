@@ -6,8 +6,9 @@
             <div class="row text-center text-md-left mt-3 pb-3">
 
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h4 class="text-uppercase mb-4 font-weight-bold">SrboGit</h4>
+                    <h4 class="text-uppercase mb-4 font-weight-bold">Србогит</h4>
                     <p class="lead"> Za bolju i jacu Srbiju!</p>
+                    <i class="fab fa-cc-paypal fa-2x"></i>
                 </div>
 
                 <hr class="w-100 clearfix d-md-none">

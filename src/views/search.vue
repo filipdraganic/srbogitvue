@@ -1,6 +1,6 @@
 <template>
 
-    <div>
+    <div class="container">
 
         <h3 style="margin: 20px; text-align: center">Search Results</h3>
         <hr>
@@ -45,11 +45,11 @@
             <div class="row justify-content-center" v-else>
 
                 <ul  class="col-10 myUL">
-                    <li><a href="#">9/11</a></li>
+                    <li><a href="#">5G</a></li>
                     <li><a href="#">Chemtrails</a></li>
                     <li><a href="#">Korean Air Lines Flight 007</a></li>
                     <li><a href="#">New World Order</a></li>
-                    <li><a href="#">KKK</a></li>
+                    <li><a href="#">Flat Earth</a></li>
                     <li><a href="#">Illuminati</a></li>
                     <li><a href="#">George Soros</a></li>
                 </ul>

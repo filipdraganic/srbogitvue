@@ -8,6 +8,7 @@ import pricing from "../views/pricing";
 import notFound404 from "../views/notFound404";
 import profile from "../views/profile";
 import search from "../views/search";
+import settings from "../views/myGit-settings"
 import vaskoMijatovicProfile from "../views/vaskoMijatovicProfile";
 import inbox from "../views/inbox";
 import contacts from "../views/contacts";
@@ -78,6 +79,11 @@ Vue.use(VueRouter)
       path:'/pricing',
       name: 'pricing',
       component: pricing
+    },
+    {
+      path:'/my-git/settings',
+      name: 'settings',
+      component: settings
     },
     {
       path:'*',

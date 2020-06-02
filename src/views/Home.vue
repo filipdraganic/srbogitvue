@@ -4,7 +4,7 @@
   <div class="jumbotron row m-lg-5 m-1" >
     <div class="col-lg-9">
 
-      <h1 class="display-4">Srbogit</h1>
+      <h1 class="display-4">Србогит</h1>
 
       <p class="lead">Najsavremeniji i najpatriotickiji websajt za upravljanje projektima koji ce dovesti do bolje i stabilnije Srbije</p>
       <p class="lead">Ako vas ovo privlaci i zelite do Srbija kao nacija napreduje, sta cekate</p>
@@ -16,19 +16,35 @@
           <div class=" col-0 col-sm-4 col-md-4 col-lg-6">
 
           </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-12 ">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-12 ">
 
             <div v-if="!this.$store.getters.getLoggedIn" >
-              <p class="lead" >
-                <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="login()" role="button">Prikljuci se sada!</a>
-              </p>
+              <div class="d-none d-md-block">
+                <p class="lead"  >
+                  <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="login()" role="button">Prikljuci se sada!</a>
+                </p>
+              </div>
+              <div class="d-md-none">
+                <p class="lead nemoguce text-center"  >
+                  <a class="btn btn-primary btn-lg text-white " style="background: green" v-on:click="login()" role="button">Prikljuci se sada!</a>
+                </p>
+              </div>
             </div>
 
 
             <div v-else>
+              <div class="d-none d-md-block">
                 <p class="lead" >
                   <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="idiNaGit()" role="button">Idi na moj git</a>
                 </p>
+              </div>
+
+              <div class="d-md-none">
+                <p class="lead text-center" >
+                  <a class="btn btn-primary btn-lg text-white" style="background: green" v-on:click="idiNaGit()" role="button">Idi na moj git</a>
+                </p>
+              </div>
+
             </div>
 
 

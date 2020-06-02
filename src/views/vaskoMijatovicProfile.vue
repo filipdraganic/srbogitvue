@@ -24,7 +24,7 @@
                 <div class="row ">
                     <h5 class="col-sm-3 col-md-3 col-lg-2">Info</h5>
 
-                    <div class="container-fluid text-right col-12 col-lg-9 col-md-9 col-sm-12">
+                    <div class="container-fluid text-right col-12 col-lg-9 col-md-9 col-sm-12" v-if="checkStatus()">
                         <button class="btn btn-danger " style=" margin-bottom: auto; margin-top: -4px"> Remove from contacts</button>
                         <button class="btn btn-outline-primary " style=" margin-bottom: auto; margin-top: -4px; margin-left: 5px"> Message</button>
 
@@ -90,7 +90,16 @@
 
 <script>
 	export default {
-		name: "vaskoMijatovicProfile"
+		name: "vaskoMijatovicProfile",
+        methods :{
+            checkStatus: function () {
+                this.loginStatus = this.$store.getters.getLoggedIn
+
+                console.log("Ovde? status je = " + this.loginStatus)
+                return this.loginStatus
+
+            },
+        }
 	}
 </script>
 

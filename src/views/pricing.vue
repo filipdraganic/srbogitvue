@@ -31,7 +31,7 @@
                                 <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
                             </ul>
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
-                            <a v-on:click="login()" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto disabled">Kupljeno</a>
+                            <a  v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto disabled">Kupljeno</a>
 
                         </div>
                     </div>
@@ -59,7 +59,7 @@
 
 
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
-                            <a v-on:click="login()" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Vadi pare</a>
+                            <a href="https://www.paypal.me/FDraganic" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Vadi pare</a>
 
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
                             </ul>
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
-                            <a v-on:click="login()" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Plati odmah</a>
+                            <a href="https://www.paypal.me/FDraganic" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Plati odmah</a>
 
                         </div>
                     </div>

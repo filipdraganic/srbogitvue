@@ -4,21 +4,21 @@
     <title>Srbogit</title>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" id="navbarTogglerBtn" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand btn btn-default btn-rounded" v-on:click="goToHome()"  @click="activeBtn = 'btn1'"  >SrboGit</a>
+        <a class="navbar-brand btn btn-default btn-rounded navdugmici" v-on:click="goToHome()"  @click="activeBtn = 'btn1'"  >Србогит</a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item" id="aboutSrbogitBtn">
-                    <a class=" nav-link btn btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToHome()" @click="activeBtn = 'btn1'" :class="{active: activeBtn === 'btn1'}">About SrboGit <span class="sr-only">(current)</span></a>
+                    <a class=" nav-link btn btn-default btn-rounded navdugmici" v-on:click="goToHome()" @click="activeBtn = 'btn1'" :class="{active: activeBtn === 'btn1'}">About SrboGit <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item" id="blogBtn">
-                    <a class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToBlog()" @click="activeBtn = 'btn2'" :class="{active: activeBtn === 'btn2'}">Blog</a>
+                    <a class="btn nav-link btn-default btn-rounded navdugmici" v-on:click="goToBlog()" @click="activeBtn = 'btn2'" :class="{active: activeBtn === 'btn2'}">Blog</a>
                 </li>
                 <li class="nav-item" id="pricingBtn">
-                    <a class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToPricing()" @click="activeBtn = 'btn3'" :class="{active: activeBtn === 'btn3'}">Pricing</a>
+                    <a class="btn nav-link btn-default btn-rounded navdugmici" v-on:click="goToPricing()" @click="activeBtn = 'btn3'" :class="{active: activeBtn === 'btn3'}">Pricing</a>
                 </li>
 
             </ul>
@@ -26,10 +26,10 @@
             <div v-if="!checkStatus()">
                 <ul class="form-inline navbar-nav  mt-2 mt-lg-0 " >
                     <li class="nav-item">
-                        <a id="loginBtn" class="btn nav-link btn-default btn-rounded" data-toggle="modal" data-target="#loginModalForm">Login</a>
+                        <a id="loginBtn" class="btn nav-link btn-default btn-rounded navdugmici" data-toggle="modal" data-target="#loginModalForm">Login</a>
                     </li>
                     <li class="nav-item mt-2 mt-lg-0">
-                        <a id="signupBtn" class="btn nav-link btn-default btn-rounded" data-toggle="modal" data-target="#signUpModalForm">Sign up</a>
+                        <a id="signupBtn" class="btn nav-link btn-default btn-rounded navdugmici" data-toggle="modal" data-target="#signUpModalForm">Sign up</a>
                     </li>
 
                 </ul>
@@ -38,16 +38,16 @@
             <div v-else>
                 <ul class=" navbar-nav  mt-2 mt-lg-0 " >
                     <li class="nav-item">
-                        <a id="ProfileBtn" class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToProfile()" @click="activeBtn = 'btn4'" :class="{active: activeBtn === 'btn4'}"  >Profile</a>
+                        <a id="ProfileBtn" class="btn nav-link btn-default btn-rounded navdugmici" v-on:click="goToProfile()" @click="activeBtn = 'btn4'" :class="{active: activeBtn === 'btn4'}"  >Profile</a>
                     </li>
                     <li class="nav-item mt-2 mt-lg-0">
-                        <a id="myGitBtn" class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToMyGit()" @click="activeBtn = 'btn5'" :class="{active: activeBtn === 'btn5'}" >My Git</a>
+                        <a id="myGitBtn" class="btn nav-link btn-default btn-rounded navdugmici"  v-on:click="goToMyGit()" @click="activeBtn = 'btn5'" :class="{active: activeBtn === 'btn5'}" >My Git</a>
                     </li>
                     <li class="nav-item">
-                        <a id="supportBtn" class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="goToSupport()" @click="activeBtn = 'btn6'" :class="{active: activeBtn === 'btn6'}">Support</a>
+                        <a id="supportBtn" class="btn nav-link btn-default btn-rounded navdugmici"  v-on:click="goToSupport()" @click="activeBtn = 'btn6'" :class="{active: activeBtn === 'btn6'}">Support</a>
                     </li>
                     <li class="nav-item mt-2 mt-lg-0">
-                        <a id="logoutBtn" class="btn nav-link btn-default btn-rounded" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" v-on:click="logout" >Logout</a>
+                        <a id="logoutBtn" class="btn nav-link btn-default btn-rounded navdugmici" v-on:click="logout" >Logout</a>
                     </li>
 
                 </ul>
@@ -55,7 +55,7 @@
 
             <form class="form-inline navbar-nav my-2 my-lg-0">
                 <input class="form-control mb-lg-0 mr-sm-2 mb-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" id="searchBtn" data-toggle="collapse"  v-on:click="goToSearch()">Search</button>
+                <button class="btn btn-outline-success my-2 my-sm-0 navdugmici" id="searchBtn" data-toggle="collapse"  v-on:click="goToSearch()">Search</button>
             </form>
         </div>
     </nav>
@@ -160,7 +160,7 @@
 
 
                         <div class="text-center mb-3">
-                            <button type="submit" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign in</button>
+                            <button type="submit" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign up</button>
                         </div>
                         <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in
                             with:</p>
@@ -211,7 +211,8 @@
 				activeBtn: '',
 				loginStatus: 0
 			}
-		},created() {
+		},
+        created() {
 
             console.log( )
             switch (this.$router.currentRoute["name"].toLowerCase()) {
@@ -339,7 +340,13 @@
 				this.activeBtn = ime
             }
 		},
-	}
+        mounted() {
+            $('.navdugmici').on('click', function() {
+                console.log("KLIK")
+                $('.navbar-collapse').collapse('hide');
+            });
+        }
+    }
 
 
 </script>

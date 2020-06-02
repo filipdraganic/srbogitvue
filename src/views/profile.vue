@@ -5,7 +5,7 @@
 
             <div class=" mt-3 text-center">
 
-                <img class="card-img-100  " src="../assets/classicstonks.png" alt="Generic placeholder image">
+                <img class="card-img-100 " src="../assets/classicstonks.png" alt="Generic placeholder image">
                 <h5>Stonks Man</h5>
 
             </div>

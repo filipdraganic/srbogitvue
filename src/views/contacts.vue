@@ -4,13 +4,13 @@
         <div class="row justify-content-center">
 
             <ul  class="col-10 myUL">
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Zdeslav Popovic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Vasko Mijatovic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Sredoje Simic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Dragisa Darkovic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Marinko Dapcevic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">David Pejic</a></li>
-                <li><a v-on:click="idiNaProfil()" style="text-align: left">Nikola Obradovic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="fas fa-star" style="color: yellow"></i> Zdeslav Popovic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="fas fa-star" style="color: yellow"></i> Vasko Mijatovic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="fas fa-star" style="color: yellow"></i> Sredoje Simic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="far fa-star" ></i> Dragisa Darkovic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="far fa-star" ></i> Marinko Dapcevic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="far fa-star" ></i> David Pejic</a></li>
+                <li><a v-on:click="idiNaProfil()" style="text-align: left"><i class="far fa-star" ></i> Nikola Obradovic</a></li>
             </ul>
         </div>
     </div>
