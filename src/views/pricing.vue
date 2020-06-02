@@ -24,11 +24,11 @@
                             </div>
                             <hr>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>10 Public Projects</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Overview</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Prostora</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Gledanje bloga</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>10 repozitorijuma</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Tanji novcanik</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Privatnost</li>
                             </ul>
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
                             <a  v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto disabled">Kupljeno</a>
@@ -50,16 +50,16 @@
                             </div>
                             <hr>
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>500GB Storage</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Prostora</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Gledanje bloga</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>10 repozitorijuma</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Tanji novcanik</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Privatnost</li>
                             </ul>
 
 
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
-                            <a href="https://www.paypal.me/FDraganic" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Vadi pare</a>
+                            <a href="https://www.paypal.me/FDraganic/300RUB" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Vadi pare</a>
 
                         </div>
                     </div>
@@ -76,14 +76,14 @@
                             </div>
                             <hr >
                             <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>1TB Storage</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Prostora</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Gledanje bloga</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>10 repozitorijuma</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Tanji novcanik</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Privatnost</li>
                             </ul>
                             <a v-on:click="login()" v-if="!this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Prijavi me sada</a>
-                            <a href="https://www.paypal.me/FDraganic" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Plati odmah</a>
+                            <a href="https://www.paypal.me/FDraganic/1000RUB" v-if="this.$store.getters.getLoggedIn" class="btn btn-block btn-primary text-uppercase text-white mt-auto">Plati odmah</a>
 
                         </div>
                     </div>

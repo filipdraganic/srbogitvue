@@ -10,9 +10,9 @@
 
             <button class="btn inline btn-outline-primary mr-2 ml-2 dugmad col-12 col-md-5"> Mnogo se sporo ucitava sve</button>
 
-            <button class="btn inline btn-outline-primary mr-2 ml-2 dugmad col-12 col-md-5"> Nikako da krene </button>
+            <button class="btn inline btn-outline-primary mr-2 ml-2 dugmad col-12 col-md-5"> Da li mi je leglo 100e? </button>
 
-            <button class="btn inline btn-outline-primary mr-2 ml-2 dugmad col-12 col-md-5"> Gde se nalazite</button>
+            <button class="btn inline btn-outline-primary mr-2 ml-2 dugmad col-12 col-md-5"> Gde se nalazite?</button>
         </div>
 
 

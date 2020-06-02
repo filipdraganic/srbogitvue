@@ -1,12 +1,12 @@
 <template>
-    <div style="height: 400px; ">
-        <div class="row justify-content-center container " id="mainMenu" style="">
+    <div style="height: 400px; overflow-y: scroll; " >
+        <div class="row justify-content-start justify-content-lg-center ml-2  " id="mainMenu" style="">
             <button class="btn btn-outline-primary m-2" v-on:click="createItem()"> Create new item</button>
             <button class="btn btn-outline-success m-2" data-toggle="modal" data-target="#uploadModal"> Upload file</button>
             <button class="btn btn-outline-warning m-2" v-on:click="renameItems()"> Rename item</button>
             <button class="btn btn-outline-danger m-2" v-on:click="deleteItems()"> Delete items</button>
 
-            <div class="row" style="margin-left: auto">
+            <div class="row m-2" style="">
                 <input class="form-control col-8" style="margin-top: auto; margin-bottom: auto" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success col-3 my-2 ml-2" id="searchBtn">Search</button>
             </div>
@@ -23,16 +23,16 @@
         </div>
 
         <div class="row justify-content-center" id="createItemMenu" hidden>
-            <button class="btn btn-outline-danger" v-on:click="createItem"> Cancel</button>
+            <button class="btn btn-outline-danger" v-on:click="cancelCreateItem"> Cancel</button>
 
         </div>
 
 
         <hr>
 
-            <div class="table-wrapper-scroll-y my-custom-scrollbar" id="mainTable"  >
+            <div class="" id="mainTable"  >
 
-                <table class="table table-bordered table-striped mb-0">
+                <table class="table table-bordered table-striped mb-0" style="overflow: scroll" >
                     <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -112,7 +112,7 @@
                 </table>
             </div>
 
-            <div class="table-wrapper-scroll-y my-custom-scrollbar" id="deleteTable" hidden>
+            <div class="" id="deleteTable" hidden>
 
                 <table class="table table-bordered table-striped mb-0">
                     <thead>
@@ -260,7 +260,7 @@
                 </table>
             </div>
 
-            <div class="table-wrapper-scroll-y my-custom-scrollbar" id="renameTable" hidden >
+            <div class="" id="renameTable" hidden >
 
                 <table class="table table-bordered table-striped mb-0">
                     <thead>
@@ -345,7 +345,7 @@
             <div id="createItemView" hidden>
                 <div class="row container justify-content-center">
                     <h4 class="" style="margin-top: auto; margin-bottom: auto; margin-right: 10px">File name</h4>
-                    <form style="margin-bottom: auto; margin-top: auto">
+                    <form class="" style="margin-bottom: auto; margin-top: auto">
 
                         <input  type="text" id="imeFajla" placeholder="filename.py" style="margin-top: 10px" required >
                         <button class="btn btn-outline-primary m-2" v-on:click="createItem" type="submit" style="float:right; margin-left: auto"> Create item</button>
@@ -409,7 +409,23 @@
                     return
                 }
 
-            }
+            },
+			cancelCreateItem: function(){
+				const mainMenu = document.getElementById("mainMenu")
+				const mainTable = document.getElementById("mainTable")
+				const newItemMenu = document.getElementById("createItemMenu")
+				const newItemView = document.getElementById("createItemView")
+
+				const imeFajla = document.getElementById("imeFajla")
+
+
+                mainMenu.hidden = !mainMenu.hidden
+                mainTable.hidden = !mainTable.hidden
+                newItemMenu.hidden = !newItemMenu.hidden
+                newItemView.hidden = !newItemView.hidden
+
+
+			}
         }
 	}
 </script>
@@ -417,10 +433,9 @@
 <style scoped>
     .my-custom-scrollbar {
         position: relative;
-        height: 79%;
-        overflow: auto;
+
+        overflow: scroll;
     }
     .table-wrapper-scroll-y {
-        display: block;
     }
 </style>

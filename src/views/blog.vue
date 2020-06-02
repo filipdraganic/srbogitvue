@@ -75,7 +75,7 @@
                                      alt="Generic placeholder image">
                                 <div class="media-body">
                                     <h5 class="font-weight-bold mt-0">
-                                        <a href="">Classic Stonks</a> <span class="ml-1 ml-lg-5  starost"> 2 dana </span>
+                                        <a href="">Classic Stonks</a> <span class="ml-1 ml-lg-5  starost"> <br>2 dana </span>
                                     </h5>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur accusamus velit nostrum et
                                     magnam.
@@ -119,7 +119,7 @@
                                      alt="Generic placeholder image">
                                 <div class="media-body">
                                     <h5 class="font-weight-bold mt-0">
-                                        <a href="">Forward Stonks</a> <span class="ml-1 ml-lg-5 starost"> 2 dana </span>
+                                        <a href="">Forward Stonks</a> <span class="ml-1 ml-lg-5 starost"><br> 2 dana </span>
                                     </h5>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur accusamus velit nostrum et
                                     magnam.
@@ -163,7 +163,7 @@
                                      alt="Generic placeholder image">
                                 <div class="media-body">
                                     <h5 class="font-weight-bold mt-0">
-                                        <a href="">Gamer Stonks</a> <span class="ml-1 ml-lg-5  starost"> 2 dana </span>
+                                        <a href="">Gamer Stonks</a> <span class="ml-1 ml-lg-5  starost"> <br>2 dana </span>
                                     </h5>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur accusamus velit nostrum et
                                     magnam.
@@ -207,7 +207,7 @@
                                      alt="Generic placeholder image">
                                 <div class="media-body">
                                     <h5 class="font-weight-bold mt-0">
-                                        <a href="">Helth Stonks</a> <span class="ml-1 ml-lg-5  starost"> 2 dana </span>
+                                        <a href="">Helth Stonks</a> <span class="ml-1 ml-lg-5  starost"><br> 2 dana </span>
                                     </h5>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur accusamus velit nostrum et
                                     magnam.

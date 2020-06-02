@@ -1,5 +1,5 @@
 <template>
-    <div class="" style="max-width: 100%; padding: 0px">
+    <div class="" style="max-width: 100%; padding: 0 ">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="opened-tab" data-toggle="tab" href="#opened" role="tab" aria-controls="opened" aria-selected="true" style="border-bottom: white 2px solid">Opened</a>
@@ -9,10 +9,10 @@
             </li>
         </ul>
 
-        <div class="tab-content" id="myTabContent" style="width: 100%">
-            <div class="tab-pane fade show active  my-custom-scrollbar"  id="opened" role="tabpanel" aria-labelledby="open-tab" style="width: 100%">
+        <div class="tab-content" id="myTabContent" style="width: 100%; ">
+            <div class="tab-pane fade show active  "  id="opened" role="tabpanel" aria-labelledby="open-tab" style="width: 100%">
 
-                <div id="accordionOpened" style="text-align: left; width: 100%" >
+                <div id="accordionOpened" style="text-align: left; width: 100%;overflow-y: auto; max-height: 400px " >
                     <div class="card">
                         <div class="card-header" id="headingOneOpen">
                             <h5 class="mb-0">
@@ -235,10 +235,6 @@
     }
     .my-custom-scrollbar {
         position: relative;
-        height: 200px;
-        overflow: auto;
     }
-    .table-wrapper-scroll-y {
-        display: block;
-    }
+
 </style>

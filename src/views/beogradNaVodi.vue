@@ -2,8 +2,8 @@
     <div>
         <div class="" style="height: 100%;  background: #fff; ">
             <div class=" " style=" position: fixed; right: 0; left: 0; top: 60px; bottom: 0;">
-                <div class="container-fluid row " style="height: 100%">
-                    <div class=" col-lg-2 col-md-2  d-none d-md-block" style="padding: 0; border-radius: 0 !important; border-right: grey 2px solid; height: auto !important;  background:white">
+                <div class="container-fluid row " style="height: 100%; margin: 0; padding:0;">
+                    <div class=" col-lg-2 col-md-2 col-0  d-none d-md-block" style="padding: 0; border-radius: 0 !important; border-right: grey 2px solid; height: auto !important;  background:white">
                         <div class="btn-group-vertical" style="width: 100%;height: 100%; border: none; border-right: grey 1px solid; ">
                             <button class="dugmici btn btn-outline-primary active" v-on:click="$router.push({name:'beogradNaVodi'})" id="btn1"> Beograd na vodi </button>
                             <button class="dugmici btn btn-outline-primary">Autoput Milos Veliki</button>
@@ -32,18 +32,30 @@
 
                         </div>
                         <hr>
-                        <p style="border: black 2px solid; border-radius: 5px; padding: 5px">Belgrade Waterfront, known in Serbian as
-                            Belgrade on Water (Београд на води / Beograd
-                            na vodi), is an urban renewal development
-                            project headed by the Government of Serbia
-                            aimed at improving Belgrade's cityscape and
-                            economy by revitalizing the Sava amphitheater,
-                            a neglected stretch of land on the right bank of
-                            the Sava river, between the Belgrade Fair and
-                            Branko's bridge. It was started in 2014 with the
-                            reconstruction of the Belgrade Cooperative
-                            building, which was finished in June of the same
-                            year. It is the second largest mixed use complex</p>
+
+
+                        <div style="border: black 2px solid; border-radius: 5px; padding: 5px ">
+                                    <textarea class="ml-3" disabled name="Wiki" id="overviewTA" cols="" rows="10" style="box-sizing: border-box; width: 96%; height: 100%; border: 0; background: white ">
+                                        Belgrade on Water (Београд на води / Beograd
+                                        na vodi), is an urban renewal development
+                                        project headed by the Government of Serbia
+                                        aimed at improving Belgrade's cityscape and
+                                        economy by revitalizing the Sava amphitheater,
+                                        a neglected stretch of land on the right bank of
+                                        the Sava river, between the Belgrade Fair and
+                                        Branko's bridge. It was started in 2014 with the
+                                        reconstruction of the Belgrade Cooperative
+                                        building, which was finished in June of the same
+                                        year. It is the second largest mixed use complex
+                                    </textarea>
+
+                            <a v-on:click="editOverviewTextArea" class="btn-outline-success btn" id="editOverviewBtn">
+                                <i class="fas fa-pen" id="penOverviewIcon"/>
+                                <span id="editOverviewBtntxt"> Edit</span>
+                            </a>
+
+                        </div>
+                        <br><br>
 
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
@@ -67,7 +79,7 @@
                         </ul>
 
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="wiki" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="tab-pane fade show active" id="wiki" role="tabpanel" aria-labelledby="home-tab" style="border-radius: 0 10px 10px 10px;">
                                 <div class=" ">
                                         <textarea class="ml-3" disabled name="Wiki" id="wikiTA" cols="" rows="10" style="box-sizing: border-box; width: 96%; height: 100%; border: 0; background: white ">
                                         Belgrade on Water (Београд на води / Beograd
@@ -287,9 +299,9 @@
 
                         <br>
 
-                        <div class="row container">
+                        <div class="row container justify-content-start">
                             <h4 class="col-6">Assigned to</h4>
-                            <i class="fa fa-users fa-2x dropdown-toggle" type="button" id="dropdownMenu"
+                            <i class="fa fa-users fa-2x dropdown-toggle col-6" type="button" id="dropdownMenu"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                style="background: white"/>
                             <div class="dropdown-menu " aria-labelledby="dropdownMenu">
@@ -338,13 +350,13 @@
                         </div>
                         <br>
 
-                        <div class="row container mb-1">
-                            <h4 class="">Pocetni rok</h4>
+                        <div class="row container mb-1 justify-content-start">
+                            <h4 class="mr-2 col-6">Pocetni rok  </h4>
                             <input type="date">
                         </div>
 
-                        <div class="row container">
-                            <h4 class="">Krajnji rok</h4>
+                        <div class="row container justify-content-start">
+                            <h4 class="mr-2 col-6">Krajnji rok</h4>
                             <input type="date">
                         </div>
 
@@ -400,6 +412,26 @@
 
 
             },
+			editOverviewTextArea: function(){
+				console.log("Pokusaj edita")
+				const textarea = document.getElementById("overviewTA")
+				const dugme = document.getElementById("editOverviewBtntxt")
+				const penIcon = document.getElementById("penOverviewIcon")
+
+                console.log(penIcon)
+
+				if(textarea.hasAttribute("disabled")){
+					textarea.disabled = false
+					penIcon.classList = "fas fa-check"
+					dugme.innerText = " Done"
+				}else{
+					textarea.disabled = true
+					penIcon.classList = "fas fa-pen"
+					dugme.innerText = " Edit"
+				}
+
+
+			},
 
             pickDate: function(){
                 $('.datepicker').datepicker();
@@ -430,7 +462,6 @@
         background: white !important;
         color: black !important;
         border: black 2px solid ;
-        border-radius: 0 10px 10px 10px;
     }
     .nav-link.active{
         background: white !important;
@@ -442,10 +473,8 @@
     }
     .my-custom-scrollbar {
         position: relative;
-        height: 200px;
-        overflow: auto;
+        overflow: scroll;
     }
     .table-wrapper-scroll-y {
-        display: block;
     }
 </style>

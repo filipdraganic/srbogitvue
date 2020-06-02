@@ -69,7 +69,7 @@
                     </ul>
 
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="wiki" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane fade show active" id="wiki" role="tabpanel" aria-labelledby="home-tab" style="border-radius: 0 10px 10px 10px;">
                             <div class=" ">
                                         <textarea class="ml-3" disabled name="Wiki" id="wikiTA" cols="" rows="10" style="box-sizing: border-box; width: 96%; height: 100%; border: 0; background: white ">
                                         Belgrade on Water (Београд на води / Beograd
@@ -475,7 +475,6 @@
         background: white !important;
         color: black !important;
         border: black 2px solid ;
-        border-radius: 0 10px 10px 10px;
     }
     .nav-link.active{
         background: white !important;

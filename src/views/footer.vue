@@ -14,36 +14,36 @@
                 <hr class="w-100 clearfix d-md-none">
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Proizvodi</h6>
                     <p>
-                        <a href="#!">Prvi link</a>
+                        <a href="https://www.prolomvoda.com/">Prvi link</a>
                     </p>
                     <p>
-                        <a href="#!">Drugi link</a>
+                        <a href="https://www.prolomvoda.com/">Drugi link</a>
                     </p>
                     <p>
-                        <a href="#!">Treci link</a>
+                        <a href="https://www.prolomvoda.com/">Treci link</a>
                     </p>
                     <p>
-                        <a href="#!">Cetvrti link</a>
+                        <a href="https://www.prolomvoda.com/">Cetvrti link</a>
                     </p>
                 </div>
 
                 <hr class="w-100 clearfix d-md-none">
 
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Sponzori</h6>
                     <p>
-                        <a href="#!">Peti link</a>
+                        <a href="https://www.prolomvoda.com/">Peti link</a>
                     </p>
                     <p>
-                        <a href="#!">Sesti link</a>
+                        <a href="https://www.prolomvoda.com/">Sesti link</a>
                     </p>
                     <p>
-                        <a href="#!">Sedmi link</a>
+                        <a href="https://www.prolomvoda.com/">Sedmi link</a>
                     </p>
                     <p>
-                        <a href="#!">Osmi link</a>
+                        <a href="https://www.prolomvoda.com/">Osmi link</a>
                     </p>
                 </div>
 
@@ -51,25 +51,25 @@
                 <hr class="w-100 clearfix d-md-none">
 
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Korisni linkovi</h6>
                     <p>
-                        <a href="#!">Deveti link</a>
+                        <a href="https://www.prolomvoda.com/">Deveti link</a>
                     </p>
                     <p>
-                        <a href="#!">Deseti link</a>
+                        <a href="https://www.prolomvoda.com/">Deseti link</a>
                     </p>
                     <p>
-                        <a href="#!">Jedanaesti link</a>
+                        <a href="https://www.prolomvoda.com/">Jedanaesti link</a>
                     </p>
                     <p>
-                        <a href="#!">Dvanajesti ljink</a>
+                        <a href="https://www.prolomvoda.com/">Dvanajesti ljink</a>
                     </p>
                 </div>
 
                 <hr class="w-100 clearfix d-md-none">
 
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Kontakt</h6>
                     <p>
                         <i class="fas fa-home mr-3"></i> Srbo@git.co.yu</p>
                     <p>

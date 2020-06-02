@@ -1,13 +1,13 @@
 <template>
-    <div  style="height: 400px; width: 100%">
+    <div  style="height: 400px; overflow: scroll" class="justify-content-lg-center justify-content-center">
 
-        <div class="row ml-1" id="mainMenu" style="">
-            <button class="btn btn-outline-primary m-2 col-3" data-toggle="modal" data-target="#newTaskModal"> Create new Task</button>
+        <div class="row m-2" id="mainMenu" style="">
+            <button class="btn btn-outline-primary m-2 col-11 col-lg-3" data-toggle="modal" data-target="#newTaskModal"> Create new Task</button>
 
-            <div class="row mr-1" style="margin-left: auto">
+            <div class="row m-2" style="">
 
-                <input class="form-control col-8" style="margin-top: auto; margin-bottom: auto" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 ml-1 col-3" id="searchBtn" >Search</button>
+                <input class="form-control col-8 col-lg-8" style="margin-top: auto; margin-bottom: auto" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success ml-2 col-3 col-lg-3" id="searchBtn" >Search</button>
             </div>
         </div>
 

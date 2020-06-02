@@ -1,12 +1,31 @@
 <template>
     <div  style="height: 400px; width: 100%">
-        <ul class="list-group my-custom-scrollbar" id="listgrupa">
-            <li class="list-group-item">Request #86 by Mihajlo Karamazon <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
-            <li class="list-group-item">Request #73 by Vukota Miraz in <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
-            <li class="list-group-item">Request #67 by Gregor Orfelin <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
-            <li class="list-group-item">Request #52 by Delibata Milonic <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
-            <li class="list-group-item">Request #1 by Dzems Kilibari <a class="btn btn-outline-success dugmic ml-2" style="float: right">Approve fork</a> <a class="btn btn-outline-danger dugmic" style="float: right">Disapprove fork</a></li>
-
+        <ul class="list-group my-custom-scrollbar" id="listgrupa" style="overflow: auto">
+            <li class="list-group-item row">
+                <span class="col-lg-6">Request #86 by Mihajlo Karamazon</span>
+                <a class="btn btn-outline-success dugmic mb-2 ml-lg-2 col-lg-3" style="float: right"><i class="fas fa-code-branch"/>  Approve fork</a>
+                <a class="btn btn-outline-danger dugmic col-lg-3" style="float: right"><i class="fas fa-times-circle"/>  Disapprove fork</a>
+            </li>
+            <li class="list-group-item row">
+                <span class="col-lg-6">Request #73 by Vukota Miraz</span>
+                <a class="btn btn-outline-success dugmic mb-2 ml-lg-2 col-lg-3" style="float: right"><i class="fas fa-code-branch"/>  Approve fork</a>
+                <a class="btn btn-outline-danger dugmic col-lg-3" style="float: right"><i class="fas fa-times-circle"/>  Disapprove fork</a>
+            </li>
+            <li class="list-group-item row">
+                <span class="col-lg-6">Request #67 by Gregor Orfelin</span>
+                <a class="btn btn-outline-success dugmic mb-2 ml-lg-2 col-lg-3" style="float: right"><i class="fas fa-code-branch"/>  Approve fork</a>
+                <a class="btn btn-outline-danger dugmic col-lg-3" style="float: right"><i class="fas fa-times-circle"/>  Disapprove fork</a>
+            </li>
+            <li class="list-group-item row">
+                <span class="col-lg-6">Request #52 by Delibata Milonic</span>
+                <a class="btn btn-outline-success dugmic mb-2 ml-lg-2 col-lg-3" style="float: right"><i class="fas fa-code-branch"/>  Approve fork</a>
+                <a class="btn btn-outline-danger dugmic col-lg-3" style="float: right"><i class="fas fa-times-circle"/>  Disapprove fork</a>
+            </li>
+            <li class="list-group-item row">
+                <span class="col-lg-6">Request #1 by Dzems Kilibari</span>
+                <a class="btn btn-outline-success dugmic mb-2 ml-lg-2 col-lg-3" style="float: right"><i class="fas fa-code-branch"/>  Approve fork</a>
+                <a class="btn btn-outline-danger dugmic col-lg-3" style="float: right"><i class="fas fa-times-circle"/>  Disapprove fork</a>
+            </li>
         </ul>
     </div>
 

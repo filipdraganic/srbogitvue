@@ -55,7 +55,7 @@
       </div>
 
       <div class="col-lg-3" id="gitSlika">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Octicons-git-branch.svg/1200px-Octicons-git-branch.svg.png" alt="git-logo"  width="200px">
+        <img src="../assets/git.png" alt="git-logo"  width="300px">
       </div>
 
 
