@@ -13,7 +13,7 @@
 
                         <div style="margin: auto"></div>
 
-                        <button class="dugmici btn btn-outline-success" style=""><i class="fas fa-plus"/> Create new Repository</button>
+                        <button class="dugmici btn btn-outline-success" style="" v-on:click="$router.push({name:'noviRepozitorijum'})"><i class="fas fa-plus"/> Create new Repository</button>
 
 
                     </div>
@@ -239,7 +239,7 @@
                          <br>
                          <div class="container">
                              <h4>Tekst taska</h4>
-                             <textarea name="taskTA" id="taskTA" cols="" rows="" style="width: 100%; height: 100%"></textarea>
+                             <textarea name="taskTA" id="taskTA" cols="" rows="8" style="width: 100%; height: 100%"></textarea>
                          </div>
                          <br>
                          <div class="container">
@@ -379,6 +379,39 @@
 
      </div>
 
+     <div class="modal fade" id="newIssueModal">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h3 style="text-align: center">New issue</h3>
+
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body text-center">
+                     <!-- Form -->
+                     <div class="row container">
+
+                         <h4 class="col-6">Task name:</h4>
+                         <input class="col-6" type="text" placeholder="Ime problema">
+                     </div>
+
+                     <br>
+
+                     <br>
+                     <div class="container">
+                         <h4>Tekst taska</h4>
+                         <textarea name="taskTA" id="editIssueTA" cols="" rows="8" style="width: 100%; height: 100%"></textarea>
+                     </div>
+                     <br>
+                     <div class="container">
+                         <button class="btn btn-outline-success" data-dismiss="modal">Save issue</button>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
  </div>
 <!--    <div>-->
 <!--        <div class=" d-none d-md-block">-->

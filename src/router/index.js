@@ -13,6 +13,8 @@ import vaskoMijatovicProfile from "../views/vaskoMijatovicProfile";
 import inbox from "../views/inbox";
 import contacts from "../views/contacts";
 import beogradNaVodi from "../views/beogradNaVodi";
+import noviRepozitorijum from "../views/noviRepozitorijum";
+
 
 Vue.use(VueRouter)
 
@@ -74,6 +76,11 @@ Vue.use(VueRouter)
       path:'/my-git/beograd-na-vodi',
       name: 'beogradNaVodi',
       component: beogradNaVodi
+    },
+    {
+      path:'/my-git/novi-repozitorijum',
+      name: 'noviRepozitorijum',
+      component: noviRepozitorijum
     },
     {
       path:'/pricing',

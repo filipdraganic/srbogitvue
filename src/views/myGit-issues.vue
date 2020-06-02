@@ -1,13 +1,20 @@
 <template>
     <div class="" style="max-width: 100%; padding: 0 ">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist" style="width: 100%">
             <li class="nav-item">
                 <a class="nav-link active" id="opened-tab" data-toggle="tab" href="#opened" role="tab" aria-controls="opened" aria-selected="true" style="border-bottom: white 2px solid">Opened</a>
             </li>
             <li class="nav-item" >
                 <a class="nav-link" id="closed-tab" data-toggle="tab" href="#closed" role="tab" aria-controls="closed" aria-selected="false" style="border-bottom: white 4px solid">Closed</a>
             </li>
+            <li style="margin-left: auto; margin-right: 10px">
+                <button class="btn btn-outline-primary m-2 col-11 col-lg-12"  data-toggle="modal" data-target="#newIssueModal"> Create new Issue</button>
+            </li>
         </ul>
+
+
 
         <div class="tab-content" id="myTabContent" style="width: 100%; ">
             <div class="tab-pane fade show active  "  id="opened" role="tabpanel" aria-labelledby="open-tab" style="width: 100%">
