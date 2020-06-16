@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Treci projekat iz interakcije covek racunar, uradjen koriscenjem VueJS i Bootstrap-a. 
+Tema: Srbogit - srpska verzija Github-a
